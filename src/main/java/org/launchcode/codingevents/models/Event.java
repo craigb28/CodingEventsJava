@@ -39,10 +39,10 @@ public class Event {
         this.id = nextId;
         nextId++;
     }
+
     public String getName() {
         return name;
     }
-
 
     public void setName(String name) {
         this.name = name;
@@ -64,9 +64,13 @@ public class Event {
         this.contactEmail = contactEmail;
     }
 
-    public EventType getType() { return type; }
+    public EventType getType() {
+        return type;
+    }
 
-    public void setType(EventType type) { this.type = type; }
+    public void setType(EventType type) {
+        this.type = type;
+    }
 
     public int getId() {
         return id;
